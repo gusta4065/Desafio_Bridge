@@ -1,3 +1,11 @@
+# Ignora o arquivo de segredo dentro da pasta do projeto
+Solucao/.env
+
+# Outras proteções recomendadas
+Solucao/.venv/
+Solucao/__pycache__/
+Solucao/*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
