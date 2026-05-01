@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f686e34-34ef-4821-b745-4febae9780aa" name="Changes" comment="" />
+    <list default="true" id="1f686e34-34ef-4821-b745-4febae9780aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Desafio_Bridge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Desafio_Bridge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Analisador_ia.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Coletor_precos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Commons/Commons.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Commons/email_F001_marco2025.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Commons/email_F002_marco2025.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Commons/email_F003_marco2025.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Commons/email_F004_marco2025.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Commons/email_F005_marco2025.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Commons/vendas_F001_marco2025.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Commons/vendas_F002_marco2025.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Commons/vendas_F003_marco2025.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Commons/vendas_F004_marco2025.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Commons/vendas_F005_marco2025.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Processamento_dados.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Resultados/resumo_gerentes_marco2025.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Resultados/vendas_consolidadas_marco2025.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Salvar_relatorios.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solucao/Solucao.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,34 +43,62 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "gusta4065"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gusta4065&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/gusta4065/Desafio_Bridge.git",
-    "accountId": "0040e422-9728-465f-b227-72d78678596a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gusta4065/Desafio_Bridge.git&quot;,
+    &quot;accountId&quot;: &quot;0040e422-9728-465f-b227-72d78678596a&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="3D5KOZwPjIFZv6oEZaKpxDpUFML" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Versão-2---modificando-a-estrutura-das-pastas&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5505747&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Desafio_Bridge" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,5 +109,16 @@
       <updated>1777566461564</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

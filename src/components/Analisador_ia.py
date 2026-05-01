@@ -24,8 +24,9 @@ def analisar_email_gerentes():
     """
 
     #Busca os emails na pasta Commons igual acontece no arquivo 'Processamento_dados.py'
-    diretorio_atual = os.path.dirname(os.path.abspath(__file__))
-    caminho_emails = os.path.join(diretorio_atual, "Commons", "email_F*.txt")
+    origem = os.path.dirname(os.path.abspath(__file__))
+    raiz_projeto = os.path.abspath(os.path.join(origem, "..", ".."))
+    caminho_emails = os.path.join(raiz_projeto, "data", "raw", "email_F*.txt")
     emails = glob.glob(caminho_emails)
 
     lista_resultados = []

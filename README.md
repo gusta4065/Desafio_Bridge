@@ -1,2 +1,12 @@
 # Desafio_Bridge
-Desafio Técnico de Estágio Bridge &amp; Co
+Desafio Técnico de Estágio Bridge &amp; 
+
+1 VERSÃO COMPLETA
+
+TODO 01 : REFACTORAR EM PYTHON PRA MELHORAR O CODIGO E ESTRUTURA DE PAGINAS  ✔️
+
+TODO 02 : DOCUMENTAÇÃO ESTILO PITCH
+
+TODO 03 : ENSAIAR PRA ENTREVISTA
+
+TODO 04(OPCIONAL) : RAFAZER TUDO EM JAVA(pq é muito melhor)

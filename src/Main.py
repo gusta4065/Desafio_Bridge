@@ -1,9 +1,9 @@
 import os.path
 
-from Analisador_ia import analisar_email_gerentes
-from Processamento_dados import consolidar_vendas
-from Salvar_relatorios import salvar_relatorio
-from Coletor_precos import Busca_precos_web
+from components.Analisador_ia import analisar_email_gerentes
+from processing.Processamento_dados import consolidar_vendas
+from utils.helpers.Salvar_relatorios import salvar_relatorio
+from components.Coletor_precos import Busca_precos_web
 
 ##Dicionario de preco pra  Testes
 
@@ -28,8 +28,8 @@ def Main():
     else:
         print("× Não foi possível obter os preços de referência do site.")
 
-    Resumo_ia_df = analisar_email_gerentes()
-    salvar_relatorio(Resumo_ia_df,Diretorio_raiz, "resumo_gerentes_marco2025.csv")
+    resumo_ia_df = analisar_email_gerentes()
+    salvar_relatorio(resumo_ia_df,Diretorio_raiz, "resumo_gerentes_marco2025.csv")
 
 if __name__ == "__main__":
     Main()

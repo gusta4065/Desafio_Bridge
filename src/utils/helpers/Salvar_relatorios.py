@@ -13,7 +13,7 @@ def salvar_relatorio(df, diretorio_raiz, nome_arquivo):
         return
 
     # 1. Define e cria a pasta de saída de forma absoluta
-    pasta_saida = os.path.join(diretorio_raiz, "Resultados")
+    pasta_saida = os.path.join(diretorio_raiz, "Output")
     if not os.path.exists(pasta_saida):
         os.makedirs(pasta_saida)
 
