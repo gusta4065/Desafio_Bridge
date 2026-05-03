@@ -19,11 +19,12 @@ Desafio_Bridge/
 ├── data/
 │   └── raw/               # Dados brutos (CSVs e TXTs das filiais)
 ├── src/                   # Código-fonte principal
+│   ├── output/                # Resultados finais processados
 │   ├── components/        # Integração com IA (Gemini) e Coletor (RPA)
 │   ├── processing/        # Lógica de consolidação e tratamento de dados
 │   ├── utils/             # Funções auxiliares (Helpers)
 │   └── main.py            # Ponto de entrada (Orquestrador)
-├── output/                # Resultados finais processados
+
 └── .env                   # Configurações sensíveis (não incluído no Git)
 ```
 
