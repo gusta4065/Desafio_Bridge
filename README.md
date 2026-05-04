@@ -44,8 +44,6 @@ Requests & LXML: Requisições web e parsing de dados.
 
 Para garantir que todas as dependências (como `pandas` e o SDK do Gemini) sejam instaladas corretamente sem conflitos com o sistema operacional, recomendo o uso de um ambiente virtual.
 
-<details>
-
 
 #### 1. Clonar o repositório
 ```bash
@@ -89,7 +87,7 @@ python3 src/Main.py
 ```
 *(No Windows, utilize `set PYTHONPATH=%PYTHONPATH%;%cd%\src` antes de rodar o script).*
 
-</details>
+
 
 ---
 ### 📚 Documentação das Funções
