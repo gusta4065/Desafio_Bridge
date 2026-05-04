@@ -121,9 +121,22 @@ Orquestra a leitura dos relatos em texto dos gerentes, envia os dados para a API
 
 </details>
 
-#### **4. salvar_relatorios**
+gerar_ranking_desempenho
+Pacote: `src.processing.processamento_dados` 
+
+Parâmetros: `df_consolidado` (pd.DataFrame).  
+
+Retorno: `tuple` (ranking_filial, ranking_produto).
+
+<details>
+<summary><b>Explicação:</b></summary>
+Responsavel por pegar o dataframe das vendas e criar um ranking entre as empresas e filiais
+</detail>
+
+
+#### **5. salvar_relatorios**
 *   **Pacote:** `src.utils.helpers.salvar_relatorios`
-*   **Parâmetros:** `df` (pd.DataFrame), `nome_arquivo` (str).
+*   **Parâmetros:** `df` (pd.DataFrame),`diretorio_raiz`(str) , `nome_arquivo` (str).
 *   **Retorno:** `None`.
 <details>
 <summary><b>Explicação:</b></summary>
