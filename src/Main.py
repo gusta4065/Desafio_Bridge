@@ -1,7 +1,7 @@
 import os.path
 
 from components.Analisador_ia import analisar_email_gerentes
-from processing.Processamento_dados import consolidar_vendas
+from processing.Processamento_dados import consolidar_vendas , gerar_ranking_desempenho
 from utils.helpers.Salvar_relatorios import salvar_relatorio
 from components.Coletor_precos import Busca_precos_web
 
@@ -28,8 +28,16 @@ def Main():
     else:
         print("× Não foi possível obter os preços de referência do site.")
 
+    print(" Iniciando relatorio de gerentes")
     resumo_ia_df = analisar_email_gerentes()
     salvar_relatorio(resumo_ia_df,Diretorio_raiz, "resumo_gerentes_marco2025.csv")
+
+    print("criando ranking das filiais")
+    ranking_filiais, ranking_produtos = gerar_ranking_desempenho(df_resultado)
+    salvar_relatorio(ranking_filiais,Diretorio_raiz, "ranking_filiais_marco2025.csv")
+    salvar_relatorio(ranking_produtos,Diretorio_raiz, "ranking_produtos_marco2025.csv")
+
+
 
 if __name__ == "__main__":
     Main()

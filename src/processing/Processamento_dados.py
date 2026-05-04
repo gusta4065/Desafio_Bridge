@@ -40,6 +40,9 @@ def consolidar_vendas(mapa_precos):
         df['preco_ref'] = df['produto_canonico'].map(mapa_precos)
         df['volume_estimado_litros'] = df['valor_total_brl']/df['preco_ref']
 
+        # Calculando o faturamento
+        df['faturamento'] = df['valor_total_brl'] * df['preco_ref']
+
         lista_dfs.append(df)
 
     if not lista_dfs:
@@ -54,8 +57,36 @@ def consolidar_vendas(mapa_precos):
         'filial_nome',
         'produto_canonico',
         'valor_total_brl',
-        'volume_estimado_litros']
+        'volume_estimado_litros',
+        'faturamento'
+    ]
     return df_final[colunas_finais]
+
+def gerar_ranking_desempenho(df_consolidado):
+    """
+    Gera rankings de faturamento por filial e por produto.
+    :param dataframe o relatorio final de vendas
+    :returns data frames com o ranking de produtos e filiais
+
+    """
+    print("\n--- 🏆 RANKING DE DESEMPENHO (MARÇO 2025) ---")
+
+    # 1. Ranking por Filial
+    ranking_filial = df_consolidado.groupby('filial_nome')['faturamento'].sum().reset_index()
+    ranking_filial = ranking_filial.sort_values(by='faturamento', ascending=False)
+
+    # 2. Ranking por Produto
+    ranking_produto = df_consolidado.groupby('produto_canonico')['faturamento'].sum().reset_index()
+    ranking_produto = ranking_produto.sort_values(by='faturamento', ascending=False)
+
+    # Exibição no Console
+    print("\nFaturamento Total por Filial:")
+    print(ranking_filial.to_string(index=False))
+
+    print("\nFaturamento Total por Produto:")
+    print(ranking_produto.to_string(index=False))
+
+    return ranking_filial, ranking_produto
 
 
 
