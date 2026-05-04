@@ -1,5 +1,6 @@
 # Ignora o arquivo de segredo dentro da pasta do projeto
 scr/.env
+.idea/
 
 # Outras proteções recomendadas
 scr/.venv/
