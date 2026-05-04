@@ -17,7 +17,7 @@ def Busca_precos_web():
         resposta.raise_for_status() # Garante que o site está online
 
         # 2. Extrai a tabela do HTML
-        # Usamos StringIO para que o Pandas entenda o texto como um arquivo
+        # uso do StringIO para que o Pandas entenda o texto como um arquivo
         html_puro = StringIO(resposta.text)
         tabelas = pd.read_html(html_puro, flavor="lxml")
 
