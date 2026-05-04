@@ -121,7 +121,7 @@ Orquestra a leitura dos relatos em texto dos gerentes, envia os dados para a API
 
 </details>
 
-gerar_ranking_desempenho
+#### **4.gerar_ranking_desempenho**
 Pacote: `src.processing.processamento_dados` 
 
 Parâmetros: `df_consolidado` (pd.DataFrame).  
@@ -131,7 +131,7 @@ Retorno: `tuple` (ranking_filial, ranking_produto).
 <details>
 <summary><b>Explicação:</b></summary>
 Responsavel por pegar o dataframe das vendas e criar um ranking entre as empresas e filiais
-</detail>
+</details>
 
 
 #### **5. salvar_relatorios**
